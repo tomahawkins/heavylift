@@ -16,6 +16,8 @@ snowboarders to the tops of mountains.
         - [video](https://www.youtube.com/watch?v=B4JKhi3khps)
         - [video](https://www.youtube.com/watch?v=Toa75LYNVxY)
         - [video](https://www.youtube.com/watch?v=I_6EjX8T9Ag)
+    - [Jack Crossfile](http://diydrones.com/profile/JackCrossfire), monocopter expert.
+    - [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
 - Configuration
     - Powerhead (gas or electric) as counter weight.
         - If gas, fuel tank at center of rotation.
@@ -27,5 +29,21 @@ snowboarders to the tops of mountains.
     - On ride up, directional sensor on board/skis controls direction of tow.
     - Limits on tow force and speed.
     - On ride down, drone tracks rider's position plus 150' altitude to clear trees and obstacles.
+
+
+## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_(helicopter\)) and Tow System
+
+Noah and I tested the undriven swivel idea using a weighted rope attached to a swivel attached to a drill.
+The rope spun just a little and produced only minor vibrations.
+I was concerned the rope would start whipping around,
+but at least in this test the weighted end remains very stable
+(rope length ~10 feet, weight ~0.25 lbs).
+We also tested the rope w/o the swivel.  This produced harmonics, but never
+caused the rope end to go nuts.
+
+[Rock Exotica](http://www.rockexotica.com) sells some very nice
+[swivels](http://www.rockexotica.com/product/swivels/).
+Probably the [Shackle Swivel](http://www.rockexotica.com/product/swivels/shackle-swivel/)
+since it could bolt directly into the airframe.
 
 
