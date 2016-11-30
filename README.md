@@ -18,6 +18,7 @@ snowboarders to the tops of mountains.
         - [video](https://www.youtube.com/watch?v=I_6EjX8T9Ag)
     - [Jack Crossfile](http://diydrones.com/profile/JackCrossfire), monocopter expert.
     - [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
+    - Yes, single blade helicopters [fly](https://www.youtube.com/watch?v=MH9N9comEy4) just [fine](https://www.youtube.com/watch?v=AD9juUWL5iU).
 - Configuration
     - Powerhead (gas or electric) as counter weight.
         - If gas, fuel tank at center of rotation.
