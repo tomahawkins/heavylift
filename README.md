@@ -32,7 +32,7 @@ snowboarders to the tops of mountains.
     - On ride down, drone tracks rider's position plus 150' altitude to clear trees and obstacles.
 
 
-## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_(helicopter\)) and Tow System
+## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_%28helicopter%29) and Tow System
 
 Noah and I tested the undriven swivel idea using a weighted rope attached to a swivel attached to a drill.
 The rope spun just a little and produced only minor vibrations.
