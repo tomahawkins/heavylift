@@ -1,35 +1,47 @@
 # HeavyLift
 
 A large drone project for material transport.
-Specifically, transporting
-snowboarders to the tops of mountains.
+Specifically, transporting snowboarders to the tops of mountains so they can ride down them.
+(Note they are towed up, not flown.)
 
-## Ideas
+The idea is based on a [Monocopter](https://en.wikipedia.org/wiki/Monocopter) design for lift efficiency and easy transport.
 
-- [Monocopter](https://en.wikipedia.org/wiki/Monocopter) design for efficiency and easy transport.
-    - Fits on a snowboard rack.
-    - Inspired by the [Charles McCutchen flying machine](http://www.airplanesandrockets.com/airplanes/charybdis-oct-1972-aam.htm) (the Charybdis).
-        - [video](https://www.youtube.com/watch?v=IrK8k_OjIeA)
-        - [video](https://www.youtube.com/watch?v=1oSck_XD0_M)
-    -  Monocopter videos:
-        - [video](https://www.youtube.com/watch?v=u23Hqq8QbeE)
-        - [video](https://www.youtube.com/watch?v=B4JKhi3khps)
-        - [video](https://www.youtube.com/watch?v=Toa75LYNVxY)
-        - [video](https://www.youtube.com/watch?v=I_6EjX8T9Ag)
-    - [Jack Crossfile](http://diydrones.com/profile/JackCrossfire), monocopter expert.
-    - [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
-    - Yes, single blade helicopters [fly](https://www.youtube.com/watch?v=MH9N9comEy4) just [fine](https://www.youtube.com/watch?v=AD9juUWL5iU).
-- Configuration
-    - Powerhead (gas or electric) as counter weight.
-        - If gas, fuel tank at center of rotation.
-    - Drive propeller on wing.  Located in wingtip vortex for efficiency.
-    - Motor drives prop via shaft or belt along inside of the wing.
-    - At center, lift hook on swivel drops rope to poma or t-bar.
-        - Swivel possibly driven by a motor to synchronize with rotation.
-- Control
-    - On ride up, directional sensor on board/skis controls direction of tow.
-    - Limits on tow force and speed.
-    - On ride down, drone tracks rider's position plus 150' altitude to clear trees and obstacles.
+- Clips onto a snowboard rack.
+- Inspired by the [Charles McCutchen flying machine](http://www.airplanesandrockets.com/airplanes/charybdis-oct-1972-aam.htm) (the Charybdis).
+    - [video](https://www.youtube.com/watch?v=IrK8k_OjIeA)
+    - [video](https://www.youtube.com/watch?v=1oSck_XD0_M)
+-  Monocopter videos:
+    - [video](https://www.youtube.com/watch?v=u23Hqq8QbeE)
+    - [video](https://www.youtube.com/watch?v=B4JKhi3khps)
+    - [video](https://www.youtube.com/watch?v=Toa75LYNVxY)
+    - [video](https://www.youtube.com/watch?v=I_6EjX8T9Ag)
+- Yes, single blade helicopters [fly](https://www.youtube.com/watch?v=MH9N9comEy4) just [fine](https://www.youtube.com/watch?v=AD9juUWL5iU).
+
+## Configuration
+
+- Powerhead (gas or electric) as counter weight.
+    - If gas, fuel tank at center of rotation to keep balance and fuel burns off.
+- Drive propeller on wing.
+  - Located in wingtip [vortex](https://www.youtube.com/watch?v=lslarZiRJhg) for efficiency.
+  - Or located on wingtip on leading edge, similar to [V-173](https://en.wikipedia.org/wiki/Vought_V-173).
+- Motor drives prop via shaft or belt along inside of the wing.
+- At center cargo hook on swivel drops rope to poma seat or t-bar.
+- Swivel and landing gear possibly driven by a motor to synchronize with rotation.
+
+## Control
+
+On ride up, directional sensor on board/skis controls direction of tow
+with limits on tow force and speed.
+On ride down, drone tracks rider's position plus 150' altitude to clear trees and obstacles.
+
+- [Research project](http://www.jamesphoughton.com/2012/07/26/monocopter-control.html).
+
+A problem with monocopter control has been servo bandwidth.  High speed helicopter tail rotor servos are often used.
+It may be possible to use a control period of 3X the rotor period:
+
+    0/4 1/4 2/4 3/4 0/4 1/4 2/4 3/4 0/4 1/4 2/4 3/4 0/4 1/4 2/4 3/4 0/4 1/4 2/4 3/4   # Rotor phase
+     h   -   l   -   h   -   l   -   h   -   l   -   h   -   l   -   h   -   l   -    # Control period 1X of rotor period.
+     h           -           l           -           h           -           l        # Control period 3X of rotor period (might work with some control degradation).
 
 
 ## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_%28helicopter%29) and Tow System
@@ -42,9 +54,25 @@ but at least in this test the weighted end remains very stable
 We also tested the rope w/o the swivel.  This produced harmonics, but never
 caused the rope end to go nuts.
 
-[Rock Exotica](http://www.rockexotica.com) sells some very nice
-[swivels](http://www.rockexotica.com/product/swivels/).
-Probably the [Shackle Swivel](http://www.rockexotica.com/product/swivels/shackle-swivel/)
-since it could bolt directly into the airframe.
+We also got and tested a 
+[Rock Exotica Shackle Swivel](http://www.rockexotica.com/product/swivels/shackle-swivel/).
+The swivel had a little more friction in the bearings, but the drill test passed.
+The 3/4" shackle can bolt directly into the airframe, with the bolt aligned
+lateral to the wing to allow it to pivot during rotor coning.
 
+## Landing Gear
+
+Possibly have wheeled gear, fixed to airframe that rotates with craft.
+Wheels, or skis, aligned with center of rotation.
+A benefit could be that since the gear is fixed in position,
+it may limit ground resonance: rotor coning would not create gear oscillations.
+
+A problem with this approach is that the gear would have to roll (ski)
+over the tow/lift line.
+
+
+## Monocopter Resources
+
+- [Jack Crossfile](http://diydrones.com/profile/JackCrossfire), monocopter expert.
+- [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
 
