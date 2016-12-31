@@ -21,12 +21,24 @@ The idea is based on a [Monocopter](https://en.wikipedia.org/wiki/Monocopter) de
 
 - Powerhead (gas or electric) as counter weight.
     - If gas, fuel tank at center of rotation to keep balance and fuel burns off.
-- Drive propeller on wing.
-  - Located in wingtip [vortex](https://www.youtube.com/watch?v=lslarZiRJhg) for efficiency.
-  - Or located on wingtip on leading edge, similar to [V-173](https://en.wikipedia.org/wiki/Vought_V-173).
-- Motor drives prop via shaft or belt along inside of the wing.
 - At center cargo hook on swivel drops rope to poma seat or t-bar.
-- Swivel and landing gear possibly driven by a motor to synchronize with rotation.
+
+## Thrust
+
+Original idea had propeller located in wingtip 
+[vortex](https://www.youtube.com/watch?v=lslarZiRJhg) for efficiency.
+That or located on wingtip leading edge to minimize vortex losses, similar to [V-173](https://en.wikipedia.org/wiki/Vought_V-173).
+In either of these configurations, the motor drives the prop via shaft or belt along inside of the wing.
+
+However, a downside with this approach is that the wing cyclic pitching will have to
+fight against the initial of the propeller and the engine.
+For simplicity (and efficiency) it is probably better to have the propeller
+mounted directly on the engine on the opposite side of the wing (no shaft, belt, or 90 degree gearbox).
+
+Furthermore, to allow the wing to pitch freely, the wing should attach to the power-side with
+a helicopter-like blade grip and feathering shaft.
+
+
 
 ## Control
 
