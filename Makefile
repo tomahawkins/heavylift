@@ -10,5 +10,4 @@ README.html: README.md
 .PHONY: clean
 clean:
 	-rm *.html
-	-rm *.png
 

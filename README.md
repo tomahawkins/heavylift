@@ -51,10 +51,14 @@ and electronics set back from the motor and propeller.
 On ride up, directional sensor on board/skis controls direction of tow
 with limits on tow force and speed.
 On ride down, drone tracks rider's position plus 150' altitude to clear trees and obstacles.
+If possible, control just with a phone and no other electronics.
+Maybe direction is inferred by taking a difference in GPS positions.
+Sample rate is about 1 second, which would probably be adequate.
+Helicopter could host a WIFI hotspot, which the phone connect to.
 
 - [Research project](http://www.jamesphoughton.com/2012/07/26/monocopter-control.html).
 
-### Controling Slower than Rotor Frequency
+### Controlling Slower than Rotor Frequency
 
 A problem with monocopter control has been servo bandwidth.  High speed helicopter tail rotor servos are often used.
 It may be possible to use a control period of 3X, or maybe 5X, of the rotor period:
@@ -68,16 +72,10 @@ It may be possible to use a control period of 3X, or maybe 5X, of the rotor peri
 
 Won't work, at least with 3X.  Integral of sin x/3 split into 3 segments (2 positive effect, 1 negative effect)
 shows that the positive and negative effects exactly cancels each other out.
+Looks like the only way is 1X control, i.e. high speed servos or a slow rotor period.
 
 ![3X Control](3X-control.png)
 
-### Dynamic Models
-
-    I : moment of inertia of disc
-    L : rotational inertia vector of disc (right hand rule: ccw rotation has L pointing up)
-    T : torque input 
-    L' = It
-    Y
 
 ## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_%28helicopter%29) and Tow System
 
