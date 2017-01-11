@@ -45,7 +45,6 @@ with weight of the power-side chassis distributed on the rotational plane, e.g. 
 and electronics set back from the motor and propeller. 
 
 
-
 ## Control
 
 On ride up, directional sensor on board/skis controls direction of tow
@@ -55,6 +54,8 @@ If possible, control just with a phone and no other electronics.
 Maybe direction is inferred by taking a difference in GPS positions.
 Sample rate is about 1 second, which would probably be adequate.
 Helicopter could host a WIFI hotspot, which the phone connect to.
+Added voice recognition and voice feedback ("warning, low fuel")
+and the rider/pilot would never need to take her phone out of her pocket.
 
 - [Research project](http://www.jamesphoughton.com/2012/07/26/monocopter-control.html).
 
@@ -75,6 +76,15 @@ shows that the positive and negative effects exactly cancels each other out.
 Looks like the only way is 1X control, i.e. high speed servos or a slow rotor period.
 
 ![3X Control](3X-control.png)
+
+### High Speed Servos
+
+- [MKS X8](http://www.mksservosusa.com/home.php?cat=24)
+- [JR NX8935](http://www.jramericas.com/?cat=1569)
+- [Spektrum H6210](https://www.spektrumrc.com/Products/Default.aspx?ProdID=SPMSH6210)
+- [Hitec HSG-8315BH](http://hitecrcd.com/products/servos/ultra-premium-high-resolution-digital-servos/hsg-8315bh/product)
+- [Hitec HS-8360TH](http://hitecrcd.com/products/servos/ultra-premium-high-resolution-digital-servos/hs-8360th-high-speed-ultra-response-servo/product)
+
 
 
 ## [Cargo Hook](https://en.wikipedia.org/wiki/Cargo_hook_%28helicopter%29) and Tow System
@@ -119,6 +129,16 @@ Or could the hook be placed somewhere in the middle of the shift range?
 Reducing this effect is accomplished by reducing the coning angle, i.e.
 with a faster rotor speed.
 
+
+## Aerodynamics
+
+- [Rotor Solidity](http://www.rchelination.com/disk-loading-solidity-math-behind-feel/)
+- [Blade Solidity](https://en.wikipedia.org/wiki/Blade_solidity)
+- [Aspect Ratio](https://en.wikipedia.org/wiki/Aspect_ratio_%28aeronautics%29)
+
+The wing could have high AR, much more akin to a helicopter blade than airplane wing.
+Interesting that most monocopters designs don't follow this.
+Among other things, it would lower pitch axis inertia improving performance of cyclic pitching.
 
 
 ## Monocopter Resources
