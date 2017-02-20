@@ -146,3 +146,40 @@ Among other things, it would lower pitch axis inertia improving performance of c
 - [Jack Crossfile](http://diydrones.com/profile/JackCrossfire), monocopter expert.
 - [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
 
+
+# Flight Testing of Prototype
+
+## Flight #1
+
+Problems uncovered:
+
+- Propeller came off motor shaft.
+- Could not lift off at full speed and full pitch.
+    - Suspect launch rod is binding with tube.
+- Receiver came loose and antenna not oriented right.  At speed, antenna bend towards motor due to centripetal force.
+
+## Flight #2
+
+Problems fixed:
+
+- Tightened propeller.
+- Mounted receiver and power switch separately for a better mounting.
+- Rotated receiver 90 degrees to fix antenna problem.
+- Shortened the launch tube (attached to airframe) and filed down launch rod for easy release.
+
+Problems uncovered:
+
+- With the new launch rod/tube configuration, monocopter fell off launch rod and broke propeller.
+
+## Flight #3
+
+Problems fixed:
+
+- Attached new propeller.
+
+Problems uncovered:
+
+- Still could not launch at full speed and full pitch.
+    - Perhaps wind is not large enough.
+
+
