@@ -147,20 +147,23 @@ Among other things, it would lower pitch axis inertia improving performance of c
 - [Monocopter blog](http://diydrones.com/profiles/blogs/diy-monocopters).
 
 
-# Flight Testing of Prototype
+# Prototype Flight Testing
 
-## Flight #1
+## Flight Test #1
 
 Problems uncovered:
 
 - Propeller came off motor shaft.
 - Could not lift off at full speed and full pitch.
     - Suspect launch rod is binding with tube.
+- At full speed, motor draws too much current.  Battery wrap starts to melt.
+    - Prop = APC 9 X 4.7 SF.  Need smaller propeller.
 - Receiver came loose and antenna not oriented right.  At speed, antenna bend towards motor due to centripetal force.
+- Launch rod wobbles a lot until full speed is reached, then stablizes.
 
-## Flight #2
+## Flight Test #2
 
-Problems fixed:
+Problems fixed before flight:
 
 - Tightened propeller.
 - Mounted receiver and power switch separately for a better mounting.
@@ -169,17 +172,26 @@ Problems fixed:
 
 Problems uncovered:
 
-- With the new launch rod/tube configuration, monocopter fell off launch rod and broke propeller.
+- With the new launch rod and tube configuration, monocopter fell off launch rod and broke propeller.
 
-## Flight #3
+## Flight Test #3
 
-Problems fixed:
+Problems fixed before flight:
 
 - Attached new propeller.
 
 Problems uncovered:
 
 - Still could not launch at full speed and full pitch.
-    - Perhaps wind is not large enough.
+    - Perhaps wing is not large enough.
+- When the rotor is coming up to speed, the rotor tends to wobble with launch rod and the rotation is often off vertical axis.
+
+Notes:
+
+By looking at the battery, it was noticed that the powerhead side was pitched up at slow speed, i.e. the
+battery was tilted down.  As the speed increased, the battery leveled out and became flat.
+We suspect that when under rotation, the centripital forces on the battery tries to orient itself into a flat disc.
+  
+      
 
 
