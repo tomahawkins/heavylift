@@ -149,7 +149,7 @@ Among other things, it would lower pitch axis inertia improving performance of c
 
 # Prototype Flight Testing
 
-## Flight Test #1
+## Flight Test #1 (2/18/17)
 
 Problems uncovered:
 
@@ -159,9 +159,9 @@ Problems uncovered:
 - At full speed, motor draws too much current.  Battery wrap starts to melt.
     - Prop = APC 9 X 4.7 SF.  Need smaller propeller.
 - Receiver came loose and antenna not oriented right.  At speed, antenna bend towards motor due to centripetal force.
-- Launch rod wobbles a lot until full speed is reached, then stablizes.
+- Launch rod wobbles a lot until full speed is reached, then stabilizes.
 
-## Flight Test #2
+## Flight Test #2 (2/19/17)
 
 Problems fixed before flight:
 
@@ -174,11 +174,11 @@ Problems uncovered:
 
 - With the new launch rod and tube configuration, monocopter fell off launch rod and broke propeller.
 
-## Flight Test #3
+## Flight Test #3 (2/19/17)
 
 Problems fixed before flight:
 
-- Attached new propeller.
+- Attached new propeller: APC 10 X 7 SF.
 
 Problems uncovered:
 
@@ -186,12 +186,41 @@ Problems uncovered:
     - Perhaps wing is not large enough.
 - When the rotor is coming up to speed, the rotor tends to wobble with launch rod and the rotation is often off vertical axis.
 
-Notes:
+Observations:
 
 By looking at the battery, it was noticed that the powerhead side was pitched up at slow speed, i.e. the
 battery was tilted down.  As the speed increased, the battery leveled out and became flat.
-We suspect that when under rotation, the centripital forces on the battery tries to orient itself into a flat disc.
-  
-      
+We suspect that when under rotation, the centripetal forces on the battery tries to orient itself into a flat disc.
+
+## Flight Test #4 (2/22/17)
+
+Changes:
+
+Moved the motor and propeller 8 inches closer to the center, trimmed the excess wood,
+and adjusted the battery position so the balance was closer to the feathering shaft.
+
+Observations:
+
+No noticeable change.  Hard to tell if these increased the speed.
+Pitching produces minor coning, but still does not lift off at full speed and full pitch.
+Battery pack is still melting the plastic.  Need a smaller propeller so the 
+motor runs faster and produces less load.
+
+## Flight Test #5 (2/22/17)
+
+Changes:
+
+Switched propeller to APC 7 X 5 E to let the motor run faster.
+
+Observations:
+
+Speed appeared better and battery ran cooler (no smoke).
+Craft lifted off briefly, then crashed just after it came off the rod.
+The propeller and motor shaft broke.
+
+During spin up, the craft tended to spin like a top, with the
+axis of rotation slowing orbiting vertical axis.
+Hasn't been an issue before: at high speed, rotation was flat.
+This suggest the CG is above the launch rod balance point.
 
 
