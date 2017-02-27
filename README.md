@@ -223,4 +223,20 @@ axis of rotation slowing orbiting vertical axis.
 Hasn't been an issue before: at high speed, rotation was flat.
 This suggest the CG is above the launch rod balance point.
 
+## Flight Test #6 (2/27/17)
+
+Changes:
+
+- Larger wing.
+- E-Flite P60 motor.
+- Longer arm to balance heavier wing.
+
+Observations:
+
+Motor underpowered with 6-cell battery.  Rotation was slow, but balanced,
+probably due to a heavyer motor mounted lower.
+With the slow rotation, it was possible to manually control the cyclic,
+which would tilt the rotor as expected.
+
+- [video](https://youtube.com/watch?v=J6MOhCfwnqM) 
 
