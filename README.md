@@ -240,3 +240,19 @@ which would tilt the rotor as expected.
 
 - [video](https://youtube.com/watch?v=J6MOhCfwnqM) 
 
+## Flight Test #7 (3/5/17)
+
+Changes:
+
+- 2 batteries for 14.4 volts.
+- New speed control
+- APC 10 X 7 E propeller.
+
+Observations:
+
+At spin up, craft came off launch rod and crashed breaking the wing servo arm and the propeller.
+
+- [Preflight video](https://www.youtube.com/watch?v=pikFwqxKnR4)
+- [Spin up and crash video](https://www.youtube.com/watch?v=SeJNXo0YKSo)
+- [Crash investigation video](https://www.youtube.com/watch?v=oPXluJrSwmg)
+
