@@ -1,5 +1,5 @@
 .PHONY: all
-all: Questions.html Background.html FutureWork.html FlightTests.html Origami.html About.html
+all: Index.html Questions.html Background.html FutureWork.html FlightTests.html Origami.html About.html Results.html
 
 %.html: %.md
 	markdown $< > $@
