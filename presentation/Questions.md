@@ -16,3 +16,9 @@
 **So we'll build models, try to fly them,
 and when they crash, we'll learn from our mistakes.**
 
+![picture](model1.jpg)
+
+![picture](model2.jpg)
+
+![picture](model3.jpg)
+
